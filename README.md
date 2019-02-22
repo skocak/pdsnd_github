@@ -33,6 +33,9 @@ earliest, most recent, most common year of birth (only available for NYC and Chi
 
 And finally, user is asked whether they want to see the raw data. 
 
+### Technologies Used
+Python, Pandas
+
 ### Files used
 washington.csv,
 new_york_city.csv,
