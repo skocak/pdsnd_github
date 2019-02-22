@@ -197,15 +197,10 @@ def raw_data(df):
     line_number = 0
     user_input = input('Do you want to see raw data? Enter yes or no.')
     
-    while user_input not in inputs:
-        user_input = input('Do you want to see raw data? Enter yes or no.')
-        if user_input in inputs:
-            correct_input = True
-        else:
-            correct_input = False
-       
-    while correct_input == True:
-        if user_input.lower() != 'no':
+     while True:
+        if user_input not in inputs:
+            user_input = input('Do you want to see raw data? Enter yes or no.').lower() 
+        elif user_input.lower() == 'yes': 
             print(df.iloc[line_number : line_number + 5])
             line_number += 5
             user_input = input('Do you want to see more raw data? Enter yes or no.')
