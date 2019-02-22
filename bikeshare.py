@@ -193,6 +193,7 @@ def user_stats(df):
     print('-'*40)
     
 def raw_data(df):
+    """Displays raw data if user wants to see."""
     inputs = ['yes', 'no']
     line_number = 0
     user_input = input('Do you want to see raw data? Enter yes or no.')
