@@ -38,3 +38,5 @@ washington.csv,
 new_york_city.csv,
 chicago.csv
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
